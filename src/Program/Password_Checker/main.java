@@ -30,7 +30,7 @@ public class main{
             else if (!userValue.equals(password) && count > 1 ){
                 
                 System.out.println("Please try again");
-                System.out.println("You have " + (count - 1) + "left.");
+                System.out.println("You have " + (count - 1) + "attempt left.");
 
 
             }else{
